@@ -1,0 +1,261 @@
+public class MyClass {
+    public static void main(Stringp[] args) {
+        char a = 63, b = 23, c = 23;
+        System.out.prinln(a);
+        System.out.prinln(b);
+        System.out.prinln(c);
+    }
+}
+
+// Windening Casting (smaller type to larger typr size)
+// Narrowin g Casting( Larger type to smaller type)
+
+public class MyClass1 {
+    public static void main(Stringp[] args ){
+        int MyInt = 9;
+        double myDouble = myInt; // << Windening casting (int to double)
+    
+        system.out.prinln(myInt);
+
+    }
+}
+
+public calss MyClass {
+    public static void main(Stringp[] args ){
+        double Mydouble = 9;
+        int MyInt = myInt; // << Windening casting (int to double) 
+    
+        system.out.prinln(myInt);
+
+    }
+}
+
+// Operators 
+
+public class MyClass {
+    public static void main(String [] args) {
+        int x = 100 + 50; // output 150 
+        x += 5; // output 155 
+        System.out.prinln(x);
+    }
+}
+/* 
+Addition            x + y
+Subtraction         x - y
+Multiplication      x * y
+Division            x / y
+Modulus             x % y
+Increment           ++x 
+Devrement           --x 
+
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+
+
+==	Equal to	                == y	
+!=	Not equal	                x != y	
+>	Greater than	            x > y	
+<	Less than	                x < y	
+>=	Greater than or equal to    x >= y	
+<=	Less than or equal to	    x <= y
+
+&& 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10	
+|| 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4	
+!	Logical not	Reverse the result, returns false if the result is true	!(x < 5 && x < 10)
+*/
+
+// Java String 
+
+public class MyClass{
+    public static void main(String[] args0) {
+        String text - "aasdfasdf";
+        System.out.println(txt.length()); // output 9
+    }
+}
+
+/* methods 
+
+.length();
+.toUpperCase(); 
+.toLowerCase();
+.indexOf(); << position of a specific text
+
+/"  >  "
+/'  >  '
+//  >  /
+
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed
+
+*/ 
+
+//Math 
+
+Math.max(5, 10); // << find higest value 
+Math.min(5, 10); // <, lowest value
+Math.sqrt(64); // < square root 
+Math.abs(-29.2) // < absolute
+Math.random(); // 0>x>1
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      if (20 > 18) {
+        System.out.println("20 is greater than 18"); // obviously
+      }  
+    }
+}
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      int x = 20;
+      int y = 18;
+      if (x > y) {
+        System.out.println("x is greater than y");
+      }  
+    }
+}
+
+// if.. else 
+
+public class MyClass {
+    public static void main(String[] args) {
+      int time = 22;
+      if (time < 10) {
+        System.out.println("Good morning.");
+      } else if (time < 20) {
+        System.out.println("Good day.");
+      }  else {
+        System.out.println("Good evening.");
+      }
+    }
+}
+
+
+public class MyClass {
+    public static void main(String[] args) {   
+      int time = 20;
+      String result;
+      result = (time < 18) ? "Good day." : "Good evening.";
+      System.out.println(result);
+    }
+}
+
+Result Size: 599 x 429
+MyClass.java 
+
+public class MyClass {
+  public static void main(String[] args) {
+    int day = 4;
+    switch (day) {
+      case 6:
+        System.out.println("Today is Saturday");
+        break;
+      case 7:
+        System.out.println("Today is Sunday");
+        break;
+      default:
+        System.out.println("Looking forward to the Weekend");
+    }    
+  }
+}
+
+
+//while loop 
+
+Result Size: 599 x 429
+MyClass.java 
+
+public class MyClass {
+  public static void main(String[] args) {
+    int i = 0;
+    do {
+      System.out.println(i);
+      i++;
+    }
+    while (i < 5);  
+  }
+}
+
+
+//for loop 
+public class MyClass {
+    public static void main(String[] args) {
+      for (int i = 0; i <= 10; i = i + 2) {
+        System.out.println(i);
+      }  
+    }
+}
+  
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+          break;
+        }
+        System.out.println(i);
+      }  
+    }
+}
+
+// array 
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+int[] myNum = {10, 20, 30, 40};
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+System.out.println(cars[0]);
+// Now outputs Opel instead of Volvo
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+// Outputs 4
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      for (String i : cars) {
+        System.out.println(i);
+      }    
+    }
+}
+
+//Mulridimensilnal Arrays 
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+
+public class MyClass {
+    public static void main(String[] args) {
+      int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+      int x = myNumbers[1][2];
+      System.out.println(x);  
+    }
+}
+
+public class MyClass {
+    public static void main(String[] args) {
+      int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+      for (int i = 0; i < myNumbers.length; ++i) {
+         for(int j = 0; j < myNumbers[i].length; ++j) {
+            System.out.println(myNumbers[i][j]);
+         }
+      }
+    }
+ }
+ 
